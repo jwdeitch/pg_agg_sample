@@ -1,0 +1,4 @@
+# PG Aggregation Helper extension
+comment = 'pgagg first, last, one_distinct'
+default_version = '0.0.1'
+relocatable = true
