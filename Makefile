@@ -1,5 +1,5 @@
-EXTENSION = pgAggHelper
-DATA = pgAggHelper--0.0.1.sql
+EXTENSION = pg_agg_sampler
+DATA = pg_agg_sampler--0.0.1.sql
 
 # postgres build stuff
 PG_CONFIG = pg_config

@@ -6,13 +6,14 @@ PG_MODULE_MAGIC;
 
 /*
  Some of this content was taken from
- the postgres documention, speicifically:
+ the postgres documentation, specifically:
  36.9.10. Polymorphic Arguments and Return Types
 */
 
 
-/* Carry along the first datum in a set
-   when used in aggregation 
+/*
+ Carry along the first datum in a set
+ when used in aggregation 
 */
 PG_FUNCTION_INFO_V1(base36_encode);
 Datum first(PG_FUNCTION_ARGS)
@@ -39,7 +40,4 @@ Datum first(PG_FUNCTION_ARGS)
 
   elog(DEBUG, element_type);
 
-  
-  
-  
 }
